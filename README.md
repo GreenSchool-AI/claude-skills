@@ -5,7 +5,7 @@
 > Built by [Green School AI](https://github.com/GreenSchool-AI) — practical AI training for Australian professionals.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/GreenSchool-AI/claude-skills/blob/main/LICENSE)
-[![Skills: 3](https://img.shields.io/badge/Skills-3-2EA44F.svg)](#available-skills)
+[![Skills: 4](https://img.shields.io/badge/Skills-4-2EA44F.svg)](#available-skills)
 [![Made in Australia](https://img.shields.io/badge/Made_in-Australia%20%F0%9F%87%A6%F0%9F%87%BA-2EA44F.svg)](https://github.com/GreenSchool-AI)
 
 ## What are Claude Skills?
@@ -21,6 +21,7 @@ Read more in [Anthropic's official documentation](https://docs.claude.com/en/doc
 | 📄 [**AU Resume & ATS Optimiser**](https://github.com/GreenSchool-AI/claude-skills/blob/main/skills/au-resume-ats-optimiser) | Rewrites your resume for the Australian market and the ATS systems used by SEEK, Indeed AU, and LinkedIn — with an honest score, fixes, rewritten sections, a tailored cover letter, and a LinkedIn lift. | Anyone job-hunting in Australia |
 | ✉️ [**Workplace Comms Polisher**](https://github.com/GreenSchool-AI/claude-skills/blob/main/skills/workplace-comms-polisher) | Polishes a draft email or Slack/Teams message into three ready-to-send versions (formal, neutral, friendly) with AU culture notes — and decodes cryptic messages from leadership. | AU professionals writing daily work messages |
 | 💡 [**Business Idea Validator**](https://github.com/GreenSchool-AI/claude-skills/blob/main/skills/business-idea-validator) | Stress-tests a small business idea for the AU market: honest verdict, market snapshot, ICP, MVP options, AUD pricing, risks, a regulatory checklist, and cheap ways to validate before you spend. | Aspiring AU small business owners |
+| 📋 [**Client Discovery Brief Generator**](https://github.com/GreenSchool-AI/claude-skills/blob/main/skills/client-discovery-brief) | Turns a vague client enquiry or call notes into a scoped brief: 15-20 questions, deliverables with scope in/out, red flags, three AUD pricing structures, a contract outline, and a follow-up email. | AU freelancers and small studios |
 
 More skills are on the way. Watch or star the repo to hear about them.
 
