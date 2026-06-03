@@ -1,0 +1,57 @@
+name: Build skill ZIPs
+
+# Rebuilds the downloadable <skill>/<skill>.zip bundle for every skill whenever a
+# skill's source changes, so the one-click download links in each skill README always
+# serve the current version. Each ZIP has the skill folder as its archive root
+# (e.g. au-resume-ats-optimiser/SKILL.md), which is the structure Claude's skill
+# uploader expects.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'skills/**'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-skill-zips
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Rebuild skill ZIPs
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          for dir in skills/*/; do
+            name="$(basename "$dir")"
+            # Drop any existing bundle so it is never nested inside the new one.
+            rm -f "skills/$name/$name.zip"
+            # Normalise mtimes so the ZIP is byte-reproducible (avoids noise commits).
+            find "skills/$name" -exec touch -t 202001010000.00 {} +
+            # Build with the skill folder as the archive root, files in a stable order.
+            ( cd skills && find "$name" -type f | LC_ALL=C sort | zip -X -q -@ "/tmp/$name.zip" )
+            mv "/tmp/$name.zip" "skills/$name/$name.zip"
+            echo "Built skills/$name/$name.zip"
+          done
+
+      - name: Commit rebuilt ZIPs if changed
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A skills
+          if git diff --cached --quiet; then
+            echo "No ZIP changes to commit."
+          else
+            git commit -m "chore: rebuild skill ZIP bundles [skip ci]"
+            git push
+          fi
