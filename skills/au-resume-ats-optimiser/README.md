@@ -31,7 +31,12 @@ You don't need to mention the skill by name — Claude recognises a resume reque
 
 Full step-by-step instructions for every platform (Claude.ai, Claude Desktop, Claude Code) are in the repository's [INSTALL.md](https://github.com/GreenSchool-AI/claude-skills/blob/main/INSTALL.md).
 
-The short version: download this `au-resume-ats-optimiser` folder, ZIP it (the ZIP must contain the folder, with `SKILL.md` inside it), then in Claude go to **Customize → Skills**, click **"+" → Create skill → Upload a skill**, and upload the ZIP. Toggle it on. You'll need **Code execution and file creation** enabled in **Settings → Capabilities** first.
+**The short version (no technical steps):**
+
+1. **[⬇️ Download the skill (ZIP)](https://github.com/GreenSchool-AI/claude-skills/raw/main/skills/au-resume-ats-optimiser/au-resume-ats-optimiser.zip)** — one ready-to-upload file. You don't need to build or zip anything yourself.
+2. In Claude, turn on **Code execution and file creation** under **Settings → Capabilities** (one-time).
+3. Go to **Customize → Skills**, click **"+" → Create skill → Upload a skill**, and upload the ZIP you just downloaded.
+4. Toggle the skill on. Done — start a new chat and paste your resume.
 
 ## What it won't do
 

@@ -21,9 +21,18 @@ identically on Claude.ai in your browser and in Claude Desktop on Windows or mac
 
 **Install steps:**
 
+**Easiest — use the ready-made ZIP.** Each skill's page in this repo has a one-click
+**⬇️ Download the skill (ZIP)** link — for example, the
+[AU Resume & ATS Optimiser ZIP](https://github.com/GreenSchool-AI/claude-skills/raw/main/skills/au-resume-ats-optimiser/au-resume-ats-optimiser.zip).
+Download that single file, then jump to **"Upload it to Claude"** below. You don't need to
+build or zip anything yourself.
+
+**Alternative — build the ZIP yourself** (only if you'd rather inspect or modify the files
+first):
+
 1. **Get the skill folder.** Either clone the repo (`git clone https://github.com/GreenSchool-AI/claude-skills.git`)
-   or download it as a ZIP from GitHub (green **Code** button → **Download ZIP**) and
-   unzip it.
+   or download the whole repo as a ZIP from GitHub (green **Code** button → **Download ZIP**)
+   and unzip it.
 2. **ZIP the single skill folder.** The ZIP must contain the skill **folder** as its
    root, with `SKILL.md` inside it — not the files loose at the top of the ZIP. The
    folder name must match the skill's `name:` (e.g. `au-resume-ats-optimiser`).
@@ -34,10 +43,12 @@ identically on Claude.ai in your browser and in Claude Desktop on Windows or mac
            ├── README.md
            └── examples/
 
+**Upload it to Claude:**
+
 3. In Claude, go to **Customize → Skills** (`claude.ai/customize/skills`).
 4. Click the **"+"** button, then **"+ Create skill"**.
 5. Select **"Upload a skill."**
-6. Upload your ZIP.
+6. Upload your ZIP (the one you downloaded, or the one you built).
 7. The skill appears in your Skills list. Use the toggle next to it to enable.
 
 **That's it.** The skill triggers automatically when Claude detects you're asking about
