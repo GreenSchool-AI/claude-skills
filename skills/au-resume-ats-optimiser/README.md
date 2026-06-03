@@ -1,65 +1,42 @@
 # AU Resume & ATS Optimiser
 
-> A Claude Skill that rewrites your resume for the Australian job market and the ATS
-> systems used by SEEK, Indeed AU, and LinkedIn AU.
+A free Claude Skill by AI Courses by Green School that rewrites your resume for the Australian job market — so it gets past the Applicant Tracking Systems (ATS) used by SEEK, Indeed AU, and LinkedIn AU, and reads the way Australian recruiters expect.
 
-## What you get
+## Who it's for
 
-When this skill is active, paste your resume (or attach the file) and Claude will:
+Job seekers in Australia in 2026 — especially skilled migrants with an overseas degree, career switchers, people returning to work after a break, and recent graduates. If you've sent dozens of applications and heard nothing back, this is built for you.
 
-- Rewrite weak bullet points using action verbs and metrics, in STAR format.
-- Add ATS-friendly keywords for your target role and the AU job sites.
-- Format for AU expectations: no photo, no date of birth, no marital status, no headshot,
-  page count and section order that matches what AU recruiters actually scan.
-- Draft a cover letter tailored to a specific AU job ad if you paste the ad alongside
-  your resume.
-- Surface the top 3 weak points in your resume with concrete suggestions.
-- Run an AU-specific check: formatting that works for SEEK, Indeed AU, and LinkedIn —
-  and flag anything that won't.
+## What you get, every time
 
-## Example
+1. An ATS readiness score out of 10, with a plain verdict.
+2. The top 5 issues holding your resume back, each with a specific fix.
+3. Rewritten sections — Professional Summary, your five strongest experience bullets (in STAR format), and a Skills section built around the keywords an ATS scans for.
+4. Keyword analysis against a specific job ad, if you paste one in.
+5. Australian formatting notes — dates, page length, no photo, AU vs US spelling, and how to frame "Australian experience".
+6. A tailored cover letter, if you paste the job ad.
+7. A LinkedIn headline and About suggestion drawn from your resume.
 
-See [`examples/`](examples) for a sample marketing manager resume run through the full
-optimisation, before and after.
+It will be honest. If a section is weak, it tells you and shows you how to fix it — no empty "looks great".
 
-## Install
+## How to use it (non-technical)
 
-See the [main INSTALL.md](../../INSTALL.md). The short version:
+1. Open Claude (claude.ai or the desktop app).
+2. Make sure this skill is added to your Skills (see "Installing the skill" below).
+3. Start a new chat and paste your resume. For best results, also paste the job ad you're targeting, and tell Claude your visa status and how long you've been in Australia.
+4. Claude returns the full breakdown above. Ask follow-up questions to refine any section.
 
-- **Claude.ai (Pro):** Settings → Capabilities → Skills → Upload `SKILL.md`.
-- **Claude Code:** drop `SKILL.md` into `~/.claude/skills/au-resume-ats-optimiser/`.
-- **Claude Desktop:** Settings → Skills → Open skills folder → drop file in.
+You don't need to mention the skill by name — Claude recognises a resume request and applies it automatically.
 
-## Use
+## Installing the skill
 
-Once installed, just say what you need:
+Full step-by-step instructions for every platform (Claude.ai, Claude Desktop, Claude Code) are in the repository's [INSTALL.md](https://github.com/GreenSchool-AI/claude-skills/blob/main/INSTALL.md).
 
-> Review my resume for an AU marketing role: [paste]
+The short version: download this `au-resume-ats-optimiser` folder, ZIP it (the ZIP must contain the folder, with `SKILL.md` inside it), then in Claude go to **Customize → Skills**, click **"+" → Create skill → Upload a skill**, and upload the ZIP. Toggle it on. You'll need **Code execution and file creation** enabled in **Settings → Capabilities** first.
 
-> Here's the job ad and here's my CV — what should I fix?
+## What it won't do
 
-Or invoke the skill explicitly:
+It won't invent experience or qualifications you don't have. Australian roles run background, AHPRA, and working-with-children checks — an honest resume is both safer and more effective. It is also tuned for Australia; conventions differ in other markets.
 
-> Use the resume optimiser skill on this: [paste]
+## Go deeper
 
-## What it's NOT
-
-- It won't replace a recruiter who knows your specific industry. AHPRA, CPA, engineering
-  registration — the skill flags these but a real specialist will know more.
-- It assumes you already have work rights in Australia. It doesn't cover visa strategy
-  or whether your overseas qualifications will be recognised.
-- Output quality depends on input quality. A vague three-line resume produces vague
-  feedback — give Claude as much context as you can.
-- It optimises for AU specifically. If you want to apply in the US or UK, this isn't the
-  right skill.
-
-## License
-
-MIT. See [LICENSE](../../LICENSE) in the repo root.
-
----
-
-<sub>Part of [GreenSchool-AI/claude-skills](../..) ·
-Maintained by [Green School AI](https://github.com/GreenSchool-AI) ·
-Looking for structured AI training for your job search?
-Check out our [Job Search Pack](https://github.com/GreenSchool-AI).</sub>
+Built by AI Courses by Green School. If you want a live cohort that does this and 100x more, find us at greenschool.au.
