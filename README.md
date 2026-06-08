@@ -5,7 +5,7 @@
 > Built by [Green School AI](https://github.com/GreenSchool-AI) — practical AI training for Australian professionals.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/GreenSchool-AI/claude-skills/blob/main/LICENSE)
-[![Skills: 5](https://img.shields.io/badge/Skills-5-2EA44F.svg)](#available-skills)
+[![Skills: 6](https://img.shields.io/badge/Skills-6-2EA44F.svg)](#available-skills)
 [![Made in Australia](https://img.shields.io/badge/Made_in-Australia%20%F0%9F%87%A6%F0%9F%87%BA-2EA44F.svg)](https://github.com/GreenSchool-AI)
 
 ## What are Claude Skills?
@@ -23,6 +23,7 @@ Read more in [Anthropic's official documentation](https://docs.claude.com/en/doc
 | 💡 [**Business Idea Validator**](https://github.com/GreenSchool-AI/claude-skills/blob/main/skills/business-idea-validator) | Stress-tests a small business idea for the AU market: honest verdict, market snapshot, ICP, MVP options, AUD pricing, risks, a regulatory checklist, and cheap ways to validate before you spend. | Aspiring AU small business owners |
 | 📋 [**Client Discovery Brief Generator**](https://github.com/GreenSchool-AI/claude-skills/blob/main/skills/client-discovery-brief) | Turns a vague client enquiry or call notes into a scoped brief: 15-20 questions, deliverables with scope in/out, red flags, three AUD pricing structures, a contract outline, and a follow-up email. | AU freelancers and small studios |
 | ⚙️ [**Claude Setup Coach**](https://github.com/GreenSchool-AI/claude-skills/blob/main/skills/assistant-setup-coach) | Sets up your Claude so it stops losing details, making things up, and repeating mistakes across chats — a short interview, then ready-to-paste preferences, a simple knowledge habit, and your own workflow skill. | Anyone who uses Claude regularly |
+| 🧠 [**Marketing Psychology**](https://github.com/GreenSchool-AI/claude-skills/blob/main/skills/marketing-psychology) | Brings the two or three behavioural-science principles that fit your marketing problem — conversions, pricing, trust, urgency — with concrete AUD examples and no dark patterns. | AU small business owners and marketers |
 
 More skills are on the way. Watch or star the repo to hear about them.
 
