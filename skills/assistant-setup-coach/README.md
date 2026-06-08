@@ -37,7 +37,7 @@ Full per-platform steps are in the repository's [INSTALL.md](https://github.com/
 
 **The short version:**
 
-1. **[⬇️ Download the skill (ZIP)](https://github.com/GreenSchool-AI/claude-skills/raw/main/skills/claude-setup-coach/claude-setup-coach.zip)** — one ready-to-upload file.
+1. **[⬇️ Download the skill (ZIP)](https://github.com/GreenSchool-AI/claude-skills/raw/main/skills/assistant-setup-coach/assistant-setup-coach.zip)** — one ready-to-upload file.
 2. In Claude, turn on **Code execution and file creation** under **Settings → Capabilities** (one-time).
 3. Go to **Customize → Skills**, click **"+" → Create skill → Upload a skill**, and upload the ZIP.
 4. Toggle it on, start a new chat, and ask it to set you up.

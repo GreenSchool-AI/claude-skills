@@ -1,5 +1,5 @@
 ---
-name: claude-setup-coach
+name: assistant-setup-coach
 description: Sets up Claude to stop losing context, inventing facts, and repeating mistakes: a short interview, then ready-to-paste preferences, a memory habit, and a workflow skill. Use to configure Claude.
 ---
 
