@@ -1,6 +1,6 @@
 ---
 name: au-resume-ats-optimiser
-description: Rewrites resumes for the Australian job market and the ATS systems used by SEEK, Indeed AU, and LinkedIn AU. Use whenever the user shares a resume or CV — paste, attached file, or text — and asks for review, optimisation, ATS check, AU-formatting feedback, cover letter help, or general "is this resume any good for the AU market" type questions, even if they don't explicitly mention "skill" or "optimiser".
+description: Reviews and rewrites resumes/CVs for the Australian job market and ATS (SEEK, Indeed, LinkedIn). Use when someone shares a resume or asks for AU resume help, an ATS check, or a cover letter.
 ---
 
 # AU Resume & ATS Optimiser

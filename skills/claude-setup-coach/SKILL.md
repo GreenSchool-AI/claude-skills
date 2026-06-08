@@ -1,6 +1,6 @@
 ---
 name: claude-setup-coach
-description: Sets up a user's Claude so it stops losing conversation details, inventing facts, and repeating the same mistakes across different chats and projects. Runs a short interview about the user's environment and work, then generates their personal preferences text, a lightweight knowledge-base habit, and a tailored everyday-workflow skill — plus an optional, OS-neutral version-control section. Make sure to use this skill whenever the user wants to set up or configure Claude, complains that Claude forgets context, hallucinates, makes things up, or repeats mistakes, asks how to make Claude consistent or reliable across chats and projects, wants help writing their Claude personal preferences or building their own workflow skill, or is getting started with Claude — even if they don't say the words "skill" or "setup".
+description: Sets up Claude to stop losing context, inventing facts, and repeating mistakes: a short interview, then ready-to-paste preferences, a memory habit, and a workflow skill. Use to configure Claude.
 ---
 
 # Claude Setup Coach
